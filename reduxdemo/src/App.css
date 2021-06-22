@@ -1,3 +1,20 @@
+body {
+  background: url('./Images/BG.jpg');
+  background-repeat: no-repeat;
+  /* background-position: center center;
+  background-size: 100% 100%; */
+}
+/* .loginBG {
+  background: url('./Images/BG.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+} */
+.login {
+    border-radius: 10px;
+  background-color: #fff;
+  width: 400px;
+}
 .App {
   text-align: center;
 }
@@ -27,7 +44,20 @@
 .App-link {
   color: #61dafb;
 }
-
+.btnLogin {
+  width: 100px !important;
+  border-radius: 0px !important;
+}
+.btnGrp {
+  display: flex;
+  justify-content: space-between;
+}
+.btnForgetPassword {
+  width: 100%;
+  border: 1px solid !important;
+  border-color: #cec7c7 !important;
+  border-radius: 0px !important;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +65,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* .LoginContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 10px; 
+} */
+.divbox {
+  background-color: white;
+  width: 400px;
+  display: block;
+  border-radius: 12px;
+}
+.tab {
+  display: flex;
+  justify-content: center;
+}
+.txtinput {
+  width: 100%;
+  border: 1px solid !important;
+  border-color: #cec7c7 !important;
+  border-radius: 0px !important;
 }
